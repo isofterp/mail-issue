@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <odoo>
-    <!-- Inherited base Res Users Form View -->
+    <!-- Inherited base Res Users Form Viev
     <record id="view_users_form_branch_inherit" model="ir.ui.view">
         <field name="name">res.users.form</field>
         <field name="model">res.users</field>
@@ -34,6 +34,7 @@
             </xpath>
         </field>
     </record>
+    -->
     <!-- Inherited Res Partner Form View to Add the Branch -->
 <!--    <record id="view_partner_form_branch_inherit" model="ir.ui.view">-->
 <!--        <field name="name">res.partner.form</field>-->
