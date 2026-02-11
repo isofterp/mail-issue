@@ -127,6 +127,7 @@ class draw_graph(http.Controller):
         ]
         data_table = DataTable(source=source, columns=columns,autosize_mode="fit_columns", width=1200)
 
+
         string = file_html(Column(Row(p), Row(data_table)), CDN, "Tank Usage Report")
         return string
 
