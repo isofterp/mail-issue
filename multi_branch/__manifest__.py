@@ -26,7 +26,7 @@
         # "report/report_stockpicking_operations.xml",
         # "report/report_payment_receipt_templates.xml",
         "views/multi_branch_view.xml",
-        "views/res_users_view.xml",
+        #"views/res_users_view.xml",
         # "views/sale_order_view.xml",
         # "views/stock_warehouse_view.xml",
         # "views/account_invoice_view.xml",
