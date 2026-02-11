@@ -123,6 +123,7 @@ class WizTankReading(models.TransientModel):
         for index, row in df.iterrows():
             #line = line_obj.search([('name', '=', row["line"])])
             line = line_obj.search([('name', '=', row["line"]), ('site_id', '=', row["site_id"])])
+            logging.warning("Employess are %s", line.employee_ids)
             for x in line.employee_ids:
                 logging.warning("---The employee is %s", x.user_id.name)
                 recipient_df = recipient_df.append({
